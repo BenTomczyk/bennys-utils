@@ -78,7 +78,7 @@ class Money:
         Returns:
             str: The string representation for debugging.
         """
-        return f"Money({self.amount}, {self.symbol}, shortform={self.shortform})"
+        return f"Money({self.amount}, {self.symbol}, shortform={self.shortform})" if self.shortform else f"Money({self.amount}, {self.symbol})"
 
     def _shorten_number(self, value: float) -> str:
         """
