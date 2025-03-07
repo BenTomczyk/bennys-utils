@@ -1,5 +1,5 @@
 import pytest
-from bennys_utils.formatting import Money
+from bennys_utils.bformat import Money
 
 def test_standard_formatting():
     assert str(Money(1000)) == "$1,000.00"

@@ -100,3 +100,4 @@ class Money:
             return f"{abs_value / 1_000:.2f}K"
         else:
             return f"{abs_value:.2f}"
+
